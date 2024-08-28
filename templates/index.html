@@ -6,19 +6,30 @@
         <title>Todo List</title>
         <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}" />
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
-    
-      <!--   <style>
-            *{
-                background-color: antiquewhite;
-                font-family: sans-serif;
-            }
-            h1{
-                font-size: xx-large;
-                text-align: center;
-            }-->
         </style> 
     </head>
     <body>
-        <h1>Todo Manager</h1>
+        <div class="container">
+            <h1>Todo Manager</h1>
+            <table class="content">
+                <tr>
+                    <th>Task</th>
+                    <th>Activity</th>
+                </tr>
+                <tr>
+                     <td>Drink Milk</td>
+                     <td>Drink Milk</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button><a href="#">Delete</a></button>
+                    </td>
+                    <td>
+                        <button><a href="#">update</a></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </table>
     </body>
 </html>

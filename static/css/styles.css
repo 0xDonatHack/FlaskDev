@@ -1,8 +1,49 @@
-*{
-    background-color: antiquewhite;
+body, html {
+    margin: 0;
     font-family: sans-serif;
+    background-color: lightblue;
 }
+
 h1{
-    font-size: xx-large;
+    padding-top: 5%;
+    padding-bottom: 3%;
     text-align: center;
+}
+.content {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+    border-radius: 8px;    
+}
+
+table {
+    border-radius: 8px;
+    background-color: rgb(78, 78, 191);
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    width: 50%;
+    height: 500px;
+    padding: auto;
+    margin: auto;
+}
+
+button{
+    background-color: lightblue;
+    color: black;
 }
